@@ -1,12 +1,25 @@
+/* GLOBAL STYLES */
 a {
-  color: red;
+  color: #f00;
 }
-#exec-bio {
-  background-color: lightgray;
+h2 {
+  font-size: 30px;
+}
+/* BIO STYLES */
+.bio-wrapper {
+  width: 500px;
 }
 .bio-box {
   border: 1px solid black;
+  width: 50%;
 }
-.bio-box a {
+.bio-copy {
+}
+.bio-copy a {
   color: green;
+}
+/* SOCIAL STYLES */
+.social-link {
+  background: rgba(150, 150, 150, 0.5);
+  color: blue;
 }
