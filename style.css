@@ -15,16 +15,28 @@ a {
 .social-list {
   list-style: none;
   padding: 0;
-  text-align: right;
+  text-align: center;
 }
 .social-list > li {
   display: inline-block;
+  margin: 0 0.5em;
 }
 .social-link {
   background: rgba(150, 150, 150, 0.5);
-  color: blue;
+  border-radius: 99px;
+  height: 2.5em;
+  width: 2.5em;
+  box-sizing: border-box;
+  color: #fff;
   display: inline-block;
-  height: 36px;
+  font-family: helvetica, arial, sans;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1;
+  padding-top: 0.85em;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
 }
 /* BIO STYLES */
 .bio-wrapper {
@@ -42,7 +54,7 @@ a {
   border: 1px solid black;
   float: left;
   font-size: 1rem;
-  padding: 2%;
+  padding: 0 2% 2%;
   width: 23%;
   box-sizing: border-box;
   margin: auto;
@@ -62,4 +74,5 @@ a {
 }
 .bio-copy a {
   color: green;
+  padding: 20px;
 }
