@@ -327,13 +327,6 @@ body {
 .page h4 {
   margin-bottom: 1em;
 }
-.
-.
-.
-/* GALLERY STYLES */
-.
-.
-.
 /* BLOG STYLES */
 .blog-recent {
   text-align: right;
@@ -456,4 +449,40 @@ body {
     font-size: 1.3rem;
     width: auto;
   }
+  /* GALLERY STYLES */
+  .gallery {
+    flex-direction: column;
+  }
+  .gallery .col {
+    padding: 1em;
+  }
+  .gallery .gallery-thumbs {
+    flex: 1;
+    height: auto;
+    white-space: nowrap;
+    width: 100vw;
+  }
+  .gallery-thumbs > div {
+    display: inline-block;
+  }
+  .gallery-thumbs img {
+    height: 7vh;
+    margin: 0 10px 0 0;
+    width: auto;
+  }
+  .gallery .gallery-info {
+    flex: 1;
+  }
+  /* BLOG STYLES */
+ .blog-recent {
+ }
+ .blog-previews {
+   padding: 0;
+ }
+ .col-two {
+   flex-direction: column;
+ }
+ .col-two .col-aside {
+   order: -1;
+ }
 }
