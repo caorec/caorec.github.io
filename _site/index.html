@@ -11,10 +11,22 @@
   <body>
     <header class="header">
   <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+    <label class="show-mobile-menu">Menu</label>
     <ul class="header-nav nav-links">
     <li><a href="/">Home</a></li>
 <li><a href="/gallery">gallery</a></li>
-<li><a href="/blog">blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2018/01/21/title-of-second-post.html">This is the title of the post</a></li>
+    
+      <li><a href="/2018/01/21/title-of-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2018/01/21/title-of-second-post.html">newest post</a></li>
 
     </ul>
@@ -147,7 +159,17 @@
     <ul class="footer-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">gallery</a></li>
-<li><a href="/blog">blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2018/01/21/title-of-second-post.html">This is the title of the post</a></li>
+    
+      <li><a href="/2018/01/21/title-of-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2018/01/21/title-of-second-post.html">newest post</a></li>
 
     </ul>
